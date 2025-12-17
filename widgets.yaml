@@ -31,10 +31,10 @@
       - AAPL
       - GOOGL
 - openweathermap:
-    timezone: America/Sao_Paulo # optional, defaults to America/New_York
-    units: metric # or imperial
-    longitude: -51.5454545454
-    latitude: -23.54545454545
+    timezone: America/Los_Angeles # optional, defaults to America/New_York
+    units: imperial # or metric 
+    longitude: -122.431297
+    latitude: 37.7749
     provider: openweathermap
     apiKey: ######youapikey###### # required only if not using provider, this reveals api key in requests
     cache: 5 # Time in minutes to cache API responses, to stay within limits
