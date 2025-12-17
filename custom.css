@@ -13,12 +13,12 @@
   --text-thin: #9dedf6;
   --text-accent: #6dc3ea;
 
-  /* espaçamentos */
+  /* spacing */
   --spacing-sm: calc(var(--spacing) * 0.5);
   --spacing-md: calc(var(--spacing) * 1);
   --spacing-lg: calc(var(--spacing) * 1.5);
 
-  /* ícones */
+  /* ícons */
   --icon-clock: url("/icons/relogio.svg");
 }
 
@@ -153,4 +153,5 @@ div.flex.flex-row.items-center.grow.justify-end::before {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+
 }
